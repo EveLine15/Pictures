@@ -11,7 +11,7 @@ holder.addEventListener('click', (event) => {
         });
         
         setBackgroundPicture(event.target.getAttribute('src'));
-        event.target.classList.toggle('img-chosen');
+        event.target.classList.add('img-chosen');
     } 
 });
 
